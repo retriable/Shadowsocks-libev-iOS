@@ -102,13 +102,4 @@ lipo -create ${CURRENTPATH}"/bin/libmbedx509-i386.a" ${CURRENTPATH}"/bin/libmbed
 lipo -create ${CURRENTPATH}"/bin/libmbedcrypto-i386.a" ${CURRENTPATH}"/bin/libmbedcrypto-x86_64.a" ${CURRENTPATH}"/bin/libmbedcrypto-armv7.a" ${CURRENTPATH}"/bin/libmbedcrypto-armv7s.a" ${CURRENTPATH}"/bin/libmbedcrypto-arm64.a" -output ${CURRENTPATH}"/lib/libmbedcrypto.a"
 
 echo "Build library..."
-
-cd $CURRENTPATH
-mkdir -p ../../Shadowsocks-libev-iOS/include/
-mkdir -p ../../Shadowsocks-libev-iOS/lib/
-
-cp -f -r include/ ../../Shadowsocks-libev-iOS/include/
-cp -f -r lib/ ../../Shadowsocks-libev-iOS/lib/
-rm -f ../../Shadowsocks-libev-iOS/include/.gitignore
-rm -f ../../Shadowsocks-libev-iOS/include/CMakeLists.txt
 echo "Building done."

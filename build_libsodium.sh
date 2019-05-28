@@ -134,14 +134,6 @@ do
     break
 done
 
-cd $CURRENTPATH
-
-mkdir -p ../../Shadowsocks-libev-iOS/include
-mkdir -p ../../Shadowsocks-libev-iOS/lib
-
-cp -f -r include/ ../../Shadowsocks-libev-iOS/include
-cp -f -r lib/ ../../Shadowsocks-libev-iOS/lib
-
 # Cleanup
 rm -rf ${BUILDDIR}
 rm -rf ${LIBDIR}

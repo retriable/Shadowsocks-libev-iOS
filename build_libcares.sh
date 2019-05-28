@@ -91,10 +91,4 @@ cp -f c-ares-${CARES_VERSION}/ares.h c-ares-${CARES_VERSION}/ares_build.h c-ares
 
 rm -rf c-ares-${CARES_VERSION}
 rm -rf bin
-
-mkdir -p ../../Shadowsocks-libev-iOS/include
-mkdir -p ../../Shadowsocks-libev-iOS/lib
-
-cp -f -r include/ ../../Shadowsocks-libev-iOS/include
-cp -f -r lib/ ../../Shadowsocks-libev-iOS/lib
 echo "Done."

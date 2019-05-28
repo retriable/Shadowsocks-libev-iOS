@@ -81,10 +81,4 @@ cp -rf pcre-${LIB_VERSION}/*.h include/
 rm -rf pcre-${LIB_VERSION}
 rm -rf bin
 
-mkdir -p ../../Shadowsocks-libev-iOS/include/
-mkdir -p ../../Shadowsocks-libev-iOS/lib/
-
-cp -f -r include/ ../../Shadowsocks-libev-iOS/include/
-cp -f -r lib/ ../../Shadowsocks-libev-iOS/lib/
-
 echo "Done."

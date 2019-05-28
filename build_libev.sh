@@ -139,12 +139,7 @@ lipo -create \
   -output ${CURRENTPATH}/lib/libev.a
 
 cp -f $SRC_DIR/ev.h $SRC_DIR/ev_vars.h $SRC_DIR/ev_wrap.h $SRC_DIR/event.h  ${CURRENTPATH}/include/ 
-cd $CURRENTPATH
-mkdir -p ../../Shadowsocks-libev-iOS/include/
-mkdir -p ../../Shadowsocks-libev-iOS/lib/
 
-cp -f -r include/ ../../Shadowsocks-libev-iOS/include/
-cp -f -r lib/ ../../Shadowsocks-libev-iOS/lib/
 echo "Clean Up... "
 rm -rf ${CURRENTPATH}/bin
 echo "Done."
