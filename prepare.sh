@@ -127,25 +127,34 @@ fi
 
 
 cd $ROOT
-LIBCARES="${ROOT}/Shadowsocks-libev-iOS/lib/libcares.a"
+LIBCARES="${ROOT}/build/libcares/lib/libcares.a"
 
 if [ ! -e $LIBCARES ]; then
-    sh ./build-libcares.sh
+    sh ./build_libcares.sh
 fi
+cd $ROOT
 
-LIBMBEDTLS="${ROOT}/Shadowsocks-libev-iOS/lib/libmbedtls.a"
+LIBMBEDTLS="${ROOT}/build/libmbedtls/lib/libmbedtls.a"
 if [ ! -e $LIBMBEDTLS ]; then
-    sh ./build-libmbedtls.sh
+    sh ./build_libmbedtls.sh
 fi
+cd $ROOT
 
-LIBSODIUM="${ROOT}/Shadowsocks-libev-iOS/lib/libsodium.a"
+LIBSODIUM="${ROOT}/build/libsodium/lib/libsodium.a"
 if [ ! -e $LIBSODIUM ]; then
-    sh ./build-libsodium.sh
+    sh ./build_libsodium.sh
 fi
-LIBEV="${ROOT}/Shadowsocks-libev-iOS/lib/libev.a"
-if [ ! -e $LIBEV ]; then
-    sh ./build-libev.sh
-fi
+cd $ROOT
 
+LIBEV="${ROOT}/build/libev/lib/libev.a"
+if [ ! -e $LIBEV ]; then
+    sh ./build_libev.sh
+fi
+cd $ROOT
+
+LIBPCRE="${ROOT}/build/libpcre/lib/libpcre.a"
+if [ ! -e $LIBPCRE ]; then
+    sh ./build_libpcre.sh
+fi
 echo "done."
 
