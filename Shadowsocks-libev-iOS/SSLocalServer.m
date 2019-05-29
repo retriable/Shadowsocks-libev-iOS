@@ -20,7 +20,7 @@
 
 @end
 
-static void *p_ss_local_callback(int i,int j,void *data){
+static void *p_ss_local_callback(int socks_fd, int udp_fd, void *data){
     SSLocalServer *server=(__bridge SSLocalServer*)data;
     if (server.callback) server.callback(nil);
     return NULL;

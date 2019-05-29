@@ -757,10 +757,17 @@ server_stream(EV_P_ ev_io *w, buffer_t *buf)
             memset((char *)&endpoints, 0, sizeof(endpoints));
             endpoints.sae_dstaddr    = (struct sockaddr *)&(remote->addr);
             endpoints.sae_dstaddrlen = remote->addr_len;
-
-            s = connectx(remote->fd, &endpoints, SAE_ASSOCID_ANY,
-                         CONNECT_RESUME_ON_READ_WRITE | CONNECT_DATA_IDEMPOTENT,
-                         NULL, 0, NULL, NULL);
+            if (__builtin_available(iOS 9.0, *)) {
+                s = connectx(remote->fd, &endpoints, SAE_ASSOCID_ANY,
+                             CONNECT_RESUME_ON_READ_WRITE | CONNECT_DATA_IDEMPOTENT,
+                             NULL, 0, NULL, NULL);
+            } else {
+//                int optval = 1;
+//                if (setsockopt(remote->fd, IPPROTO_TCP, TCP_FASTOPEN_CONNECT,
+//                               (void *)&optval, sizeof(optval)) < 0)
+//                    FATAL("failed to set TCP_FASTOPEN_CONNECT");
+                s = connect(remote->fd, (struct sockaddr *)&(remote->addr), remote->addr_len);
+            }
 #elif defined(TCP_FASTOPEN_CONNECT)
             int optval = 1;
             if (setsockopt(remote->fd, IPPROTO_TCP, TCP_FASTOPEN_CONNECT,

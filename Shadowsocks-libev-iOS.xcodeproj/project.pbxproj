@@ -7,6 +7,74 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C916BB99229D1F1000789DB9 /* SSLocalServer.m in Sources */ = {isa = PBXBuildFile; fileRef = C982D8FA229CD41B00771C0D /* SSLocalServer.m */; };
+		C916BB9A229D1F1000789DB9 /* SSLocalServerConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = C982D8F6229CD40E00771C0D /* SSLocalServerConfig.m */; };
+		C916BB9B229D1F6F00789DB9 /* libbloom.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C97783B92296D5FD009B3C60 /* libbloom.a */; };
+		C916BB9C229D1F6F00789DB9 /* libcork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C97783D22296D666009B3C60 /* libcork.a */; };
+		C916BB9D229D1F6F00789DB9 /* libipset.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C977844F2296D78B009B3C60 /* libipset.a */; };
+		C916BB9E229D1F8800789DB9 /* libcares.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C982D8E7229CD12800771C0D /* libcares.a */; };
+		C916BB9F229D1F8C00789DB9 /* libev.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C982D8E9229CD12D00771C0D /* libev.a */; };
+		C916BBA0229D1F9200789DB9 /* libmbedcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C982D8EC229CD13400771C0D /* libmbedcrypto.a */; };
+		C916BBA1229D1F9200789DB9 /* libmbedtls.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C982D8EB229CD13400771C0D /* libmbedtls.a */; };
+		C916BBA2229D1F9200789DB9 /* libmbedx509.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C982D8ED229CD13400771C0D /* libmbedx509.a */; };
+		C916BBA3229D1F9600789DB9 /* libpcre.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C982D8F1229CD13A00771C0D /* libpcre.a */; };
+		C916BBA4229D1F9900789DB9 /* libsodium.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C982D8F3229CD13F00771C0D /* libsodium.a */; };
+		C916BBA6229D1FC500789DB9 /* libresolv.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C97784EE2296DB0E009B3C60 /* libresolv.9.tbd */; };
+		C916BBC5229D362B00789DB9 /* shadowsocks.h in Headers */ = {isa = PBXBuildFile; fileRef = C916BBC4229D362B00789DB9 /* shadowsocks.h */; };
+		C916BBC8229D365D00789DB9 /* local.c in Sources */ = {isa = PBXBuildFile; fileRef = C916BBC6229D365D00789DB9 /* local.c */; };
+		C916BBC9229D365D00789DB9 /* local.c in Sources */ = {isa = PBXBuildFile; fileRef = C916BBC6229D365D00789DB9 /* local.c */; };
+		C916BBCA229D365D00789DB9 /* local.h in Headers */ = {isa = PBXBuildFile; fileRef = C916BBC7229D365D00789DB9 /* local.h */; };
+		C916BBDB229D367300789DB9 /* acl.h in Headers */ = {isa = PBXBuildFile; fileRef = C916BBCB229D367200789DB9 /* acl.h */; };
+		C916BBDC229D367300789DB9 /* crypto.h in Headers */ = {isa = PBXBuildFile; fileRef = C916BBCC229D367200789DB9 /* crypto.h */; };
+		C916BBDD229D367300789DB9 /* base64.c in Sources */ = {isa = PBXBuildFile; fileRef = C916BBCD229D367200789DB9 /* base64.c */; };
+		C916BBDE229D367300789DB9 /* base64.c in Sources */ = {isa = PBXBuildFile; fileRef = C916BBCD229D367200789DB9 /* base64.c */; };
+		C916BBDF229D367300789DB9 /* cache.h in Headers */ = {isa = PBXBuildFile; fileRef = C916BBCE229D367200789DB9 /* cache.h */; };
+		C916BBE0229D367300789DB9 /* json.c in Sources */ = {isa = PBXBuildFile; fileRef = C916BBCF229D367200789DB9 /* json.c */; };
+		C916BBE1229D367300789DB9 /* json.c in Sources */ = {isa = PBXBuildFile; fileRef = C916BBCF229D367200789DB9 /* json.c */; };
+		C916BBE2229D367300789DB9 /* aead.c in Sources */ = {isa = PBXBuildFile; fileRef = C916BBD0229D367200789DB9 /* aead.c */; };
+		C916BBE3229D367300789DB9 /* aead.c in Sources */ = {isa = PBXBuildFile; fileRef = C916BBD0229D367200789DB9 /* aead.c */; };
+		C916BBE4229D367300789DB9 /* jconf.c in Sources */ = {isa = PBXBuildFile; fileRef = C916BBD1229D367300789DB9 /* jconf.c */; };
+		C916BBE5229D367300789DB9 /* jconf.c in Sources */ = {isa = PBXBuildFile; fileRef = C916BBD1229D367300789DB9 /* jconf.c */; };
+		C916BBE6229D367300789DB9 /* crypto.c in Sources */ = {isa = PBXBuildFile; fileRef = C916BBD2229D367300789DB9 /* crypto.c */; };
+		C916BBE7229D367300789DB9 /* crypto.c in Sources */ = {isa = PBXBuildFile; fileRef = C916BBD2229D367300789DB9 /* crypto.c */; };
+		C916BBE8229D367300789DB9 /* jconf.h in Headers */ = {isa = PBXBuildFile; fileRef = C916BBD3229D367300789DB9 /* jconf.h */; };
+		C916BBE9229D367300789DB9 /* acl.c in Sources */ = {isa = PBXBuildFile; fileRef = C916BBD4229D367300789DB9 /* acl.c */; };
+		C916BBEA229D367300789DB9 /* acl.c in Sources */ = {isa = PBXBuildFile; fileRef = C916BBD4229D367300789DB9 /* acl.c */; };
+		C916BBEB229D367300789DB9 /* http.c in Sources */ = {isa = PBXBuildFile; fileRef = C916BBD5229D367300789DB9 /* http.c */; };
+		C916BBEC229D367300789DB9 /* http.c in Sources */ = {isa = PBXBuildFile; fileRef = C916BBD5229D367300789DB9 /* http.c */; };
+		C916BBED229D367300789DB9 /* cache.c in Sources */ = {isa = PBXBuildFile; fileRef = C916BBD6229D367300789DB9 /* cache.c */; };
+		C916BBEE229D367300789DB9 /* cache.c in Sources */ = {isa = PBXBuildFile; fileRef = C916BBD6229D367300789DB9 /* cache.c */; };
+		C916BBEF229D367300789DB9 /* json.h in Headers */ = {isa = PBXBuildFile; fileRef = C916BBD7229D367300789DB9 /* json.h */; };
+		C916BBF0229D367300789DB9 /* http.h in Headers */ = {isa = PBXBuildFile; fileRef = C916BBD8229D367300789DB9 /* http.h */; };
+		C916BBF1229D367300789DB9 /* base64.h in Headers */ = {isa = PBXBuildFile; fileRef = C916BBD9229D367300789DB9 /* base64.h */; };
+		C916BBF2229D367300789DB9 /* aead.h in Headers */ = {isa = PBXBuildFile; fileRef = C916BBDA229D367300789DB9 /* aead.h */; };
+		C916BC03229D369700789DB9 /* plugin.h in Headers */ = {isa = PBXBuildFile; fileRef = C916BBF3229D369600789DB9 /* plugin.h */; };
+		C916BC04229D369700789DB9 /* utils.c in Sources */ = {isa = PBXBuildFile; fileRef = C916BBF4229D369600789DB9 /* utils.c */; };
+		C916BC05229D369700789DB9 /* utils.c in Sources */ = {isa = PBXBuildFile; fileRef = C916BBF4229D369600789DB9 /* utils.c */; };
+		C916BC06229D369700789DB9 /* stream.h in Headers */ = {isa = PBXBuildFile; fileRef = C916BBF5229D369600789DB9 /* stream.h */; };
+		C916BC07229D369700789DB9 /* tls.h in Headers */ = {isa = PBXBuildFile; fileRef = C916BBF6229D369700789DB9 /* tls.h */; };
+		C916BC08229D369700789DB9 /* netutils.h in Headers */ = {isa = PBXBuildFile; fileRef = C916BBF7229D369700789DB9 /* netutils.h */; };
+		C916BC09229D369700789DB9 /* resolv.c in Sources */ = {isa = PBXBuildFile; fileRef = C916BBF8229D369700789DB9 /* resolv.c */; };
+		C916BC0A229D369700789DB9 /* resolv.c in Sources */ = {isa = PBXBuildFile; fileRef = C916BBF8229D369700789DB9 /* resolv.c */; };
+		C916BC0B229D369700789DB9 /* ppbloom.c in Sources */ = {isa = PBXBuildFile; fileRef = C916BBF9229D369700789DB9 /* ppbloom.c */; };
+		C916BC0C229D369700789DB9 /* ppbloom.c in Sources */ = {isa = PBXBuildFile; fileRef = C916BBF9229D369700789DB9 /* ppbloom.c */; };
+		C916BC0D229D369700789DB9 /* netutils.c in Sources */ = {isa = PBXBuildFile; fileRef = C916BBFA229D369700789DB9 /* netutils.c */; };
+		C916BC0E229D369700789DB9 /* netutils.c in Sources */ = {isa = PBXBuildFile; fileRef = C916BBFA229D369700789DB9 /* netutils.c */; };
+		C916BC0F229D369700789DB9 /* ppbloom.h in Headers */ = {isa = PBXBuildFile; fileRef = C916BBFB229D369700789DB9 /* ppbloom.h */; };
+		C916BC10229D369700789DB9 /* plugin.c in Sources */ = {isa = PBXBuildFile; fileRef = C916BBFC229D369700789DB9 /* plugin.c */; };
+		C916BC11229D369700789DB9 /* plugin.c in Sources */ = {isa = PBXBuildFile; fileRef = C916BBFC229D369700789DB9 /* plugin.c */; };
+		C916BC12229D369700789DB9 /* stream.c in Sources */ = {isa = PBXBuildFile; fileRef = C916BBFD229D369700789DB9 /* stream.c */; };
+		C916BC13229D369700789DB9 /* stream.c in Sources */ = {isa = PBXBuildFile; fileRef = C916BBFD229D369700789DB9 /* stream.c */; };
+		C916BC14229D369700789DB9 /* utils.h in Headers */ = {isa = PBXBuildFile; fileRef = C916BBFE229D369700789DB9 /* utils.h */; };
+		C916BC15229D369700789DB9 /* udprelay.h in Headers */ = {isa = PBXBuildFile; fileRef = C916BBFF229D369700789DB9 /* udprelay.h */; };
+		C916BC16229D369700789DB9 /* resolv.h in Headers */ = {isa = PBXBuildFile; fileRef = C916BC00229D369700789DB9 /* resolv.h */; };
+		C916BC17229D369700789DB9 /* udprelay.c in Sources */ = {isa = PBXBuildFile; fileRef = C916BC01229D369700789DB9 /* udprelay.c */; };
+		C916BC18229D369700789DB9 /* udprelay.c in Sources */ = {isa = PBXBuildFile; fileRef = C916BC01229D369700789DB9 /* udprelay.c */; };
+		C916BC19229D369700789DB9 /* tls.c in Sources */ = {isa = PBXBuildFile; fileRef = C916BC02229D369700789DB9 /* tls.c */; };
+		C916BC1A229D369700789DB9 /* tls.c in Sources */ = {isa = PBXBuildFile; fileRef = C916BC02229D369700789DB9 /* tls.c */; };
+		C916BC1D229D36B200789DB9 /* rule.h in Headers */ = {isa = PBXBuildFile; fileRef = C916BC1B229D36B100789DB9 /* rule.h */; };
+		C916BC1E229D36B200789DB9 /* rule.c in Sources */ = {isa = PBXBuildFile; fileRef = C916BC1C229D36B100789DB9 /* rule.c */; };
+		C916BC1F229D36B200789DB9 /* rule.c in Sources */ = {isa = PBXBuildFile; fileRef = C916BC1C229D36B100789DB9 /* rule.c */; };
 		C97783A02296C2CE009B3C60 /* Shadowsocks_libev_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = C977839E2296C2CE009B3C60 /* Shadowsocks_libev_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C97783CC2296D634009B3C60 /* bloom.c in Sources */ = {isa = PBXBuildFile; fileRef = C97783C32296D62B009B3C60 /* bloom.c */; };
 		C97783CD2296D642009B3C60 /* MurmurHash2.c in Sources */ = {isa = PBXBuildFile; fileRef = C97783C72296D632009B3C60 /* MurmurHash2.c */; };
@@ -39,25 +107,6 @@
 		C97784872296D826009B3C60 /* libcork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C97783D22296D666009B3C60 /* libcork.a */; };
 		C97784882296D826009B3C60 /* libipset.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C977844F2296D78B009B3C60 /* libipset.a */; };
 		C977848A2296D8A5009B3C60 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = C97784892296D8A5009B3C60 /* config.h */; };
-		C97784C22296D901009B3C60 /* acl.c in Sources */ = {isa = PBXBuildFile; fileRef = C97784B22296D8B9009B3C60 /* acl.c */; };
-		C97784C32296D901009B3C60 /* aead.c in Sources */ = {isa = PBXBuildFile; fileRef = C97784952296D8B9009B3C60 /* aead.c */; };
-		C97784C42296D901009B3C60 /* base64.c in Sources */ = {isa = PBXBuildFile; fileRef = C97784AC2296D8B9009B3C60 /* base64.c */; };
-		C97784C52296D901009B3C60 /* cache.c in Sources */ = {isa = PBXBuildFile; fileRef = C97784B52296D8B9009B3C60 /* cache.c */; };
-		C97784C62296D901009B3C60 /* crypto.c in Sources */ = {isa = PBXBuildFile; fileRef = C97784BA2296D8B9009B3C60 /* crypto.c */; };
-		C97784C72296D901009B3C60 /* http.c in Sources */ = {isa = PBXBuildFile; fileRef = C97784AF2296D8B9009B3C60 /* http.c */; };
-		C97784C82296D901009B3C60 /* jconf.c in Sources */ = {isa = PBXBuildFile; fileRef = C97784BB2296D8B9009B3C60 /* jconf.c */; };
-		C97784C92296D901009B3C60 /* json.c in Sources */ = {isa = PBXBuildFile; fileRef = C977848C2296D8B9009B3C60 /* json.c */; };
-		C97784CA2296D901009B3C60 /* local.c in Sources */ = {isa = PBXBuildFile; fileRef = C977849A2296D8B9009B3C60 /* local.c */; };
-		C97784CC2296D901009B3C60 /* netutils.c in Sources */ = {isa = PBXBuildFile; fileRef = C97784AB2296D8B9009B3C60 /* netutils.c */; };
-		C97784CD2296D901009B3C60 /* plugin.c in Sources */ = {isa = PBXBuildFile; fileRef = C97784B12296D8B9009B3C60 /* plugin.c */; };
-		C97784CE2296D901009B3C60 /* ppbloom.c in Sources */ = {isa = PBXBuildFile; fileRef = C97784972296D8B9009B3C60 /* ppbloom.c */; };
-		C97784D02296D901009B3C60 /* resolv.c in Sources */ = {isa = PBXBuildFile; fileRef = C97784A72296D8B9009B3C60 /* resolv.c */; };
-		C97784D12296D901009B3C60 /* rule.c in Sources */ = {isa = PBXBuildFile; fileRef = C97784912296D8B9009B3C60 /* rule.c */; };
-		C97784D32296D901009B3C60 /* stream.c in Sources */ = {isa = PBXBuildFile; fileRef = C97784C02296D8B9009B3C60 /* stream.c */; };
-		C97784D42296D901009B3C60 /* tls.c in Sources */ = {isa = PBXBuildFile; fileRef = C97784B32296D8B9009B3C60 /* tls.c */; };
-		C97784D62296D901009B3C60 /* udprelay.c in Sources */ = {isa = PBXBuildFile; fileRef = C97784A42296D8B9009B3C60 /* udprelay.c */; };
-		C97784D72296D901009B3C60 /* utils.c in Sources */ = {isa = PBXBuildFile; fileRef = C97784A82296D8B9009B3C60 /* utils.c */; };
-		C97784D82296D901009B3C60 /* winsock.c in Sources */ = {isa = PBXBuildFile; fileRef = C97784A52296D8B9009B3C60 /* winsock.c */; };
 		C97784EF2296DB0E009B3C60 /* libresolv.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C97784EE2296DB0E009B3C60 /* libresolv.9.tbd */; };
 		C97784F02296DB43009B3C60 /* process.c in Sources */ = {isa = PBXBuildFile; fileRef = C97783DF2296D6A7009B3C60 /* process.c */; };
 		C97784F12296DB43009B3C60 /* exec.c in Sources */ = {isa = PBXBuildFile; fileRef = C97783E02296D6A7009B3C60 /* exec.c */; };
@@ -93,6 +142,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		C916BBBE229D342700789DB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C97783922296C2CE009B3C60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C97783B82296D5FD009B3C60;
+			remoteInfo = bloom;
+		};
+		C916BBC0229D342700789DB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C97783922296C2CE009B3C60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C97783D12296D666009B3C60;
+			remoteInfo = cork;
+		};
+		C916BBC2229D342700789DB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C97783922296C2CE009B3C60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C977844E2296D78B009B3C60;
+			remoteInfo = ipset;
+		};
 		C97785042296DBEE009B3C60 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C97783922296C2CE009B3C60 /* Project object */;
@@ -117,6 +187,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		C916BB8E229D1ED200789DB9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C97783B72296D5FD009B3C60 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -147,7 +226,45 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		C977839B2296C2CE009B3C60 /* Shadowsocks_libev_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Shadowsocks_libev_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C916BB90229D1ED200789DB9 /* libShadowsocks-libev-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libShadowsocks-libev-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C916BBC4229D362B00789DB9 /* shadowsocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shadowsocks.h; sourceTree = "<group>"; };
+		C916BBC6229D365D00789DB9 /* local.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = local.c; sourceTree = "<group>"; };
+		C916BBC7229D365D00789DB9 /* local.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = local.h; sourceTree = "<group>"; };
+		C916BBCB229D367200789DB9 /* acl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = acl.h; sourceTree = "<group>"; };
+		C916BBCC229D367200789DB9 /* crypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypto.h; sourceTree = "<group>"; };
+		C916BBCD229D367200789DB9 /* base64.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = base64.c; sourceTree = "<group>"; };
+		C916BBCE229D367200789DB9 /* cache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cache.h; sourceTree = "<group>"; };
+		C916BBCF229D367200789DB9 /* json.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = json.c; sourceTree = "<group>"; };
+		C916BBD0229D367200789DB9 /* aead.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aead.c; sourceTree = "<group>"; };
+		C916BBD1229D367300789DB9 /* jconf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = jconf.c; sourceTree = "<group>"; };
+		C916BBD2229D367300789DB9 /* crypto.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = crypto.c; sourceTree = "<group>"; };
+		C916BBD3229D367300789DB9 /* jconf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jconf.h; sourceTree = "<group>"; };
+		C916BBD4229D367300789DB9 /* acl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = acl.c; sourceTree = "<group>"; };
+		C916BBD5229D367300789DB9 /* http.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = http.c; sourceTree = "<group>"; };
+		C916BBD6229D367300789DB9 /* cache.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cache.c; sourceTree = "<group>"; };
+		C916BBD7229D367300789DB9 /* json.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = json.h; sourceTree = "<group>"; };
+		C916BBD8229D367300789DB9 /* http.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = http.h; sourceTree = "<group>"; };
+		C916BBD9229D367300789DB9 /* base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = base64.h; sourceTree = "<group>"; };
+		C916BBDA229D367300789DB9 /* aead.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aead.h; sourceTree = "<group>"; };
+		C916BBF3229D369600789DB9 /* plugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = plugin.h; sourceTree = "<group>"; };
+		C916BBF4229D369600789DB9 /* utils.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = utils.c; sourceTree = "<group>"; };
+		C916BBF5229D369600789DB9 /* stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stream.h; sourceTree = "<group>"; };
+		C916BBF6229D369700789DB9 /* tls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tls.h; sourceTree = "<group>"; };
+		C916BBF7229D369700789DB9 /* netutils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = netutils.h; sourceTree = "<group>"; };
+		C916BBF8229D369700789DB9 /* resolv.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = resolv.c; sourceTree = "<group>"; };
+		C916BBF9229D369700789DB9 /* ppbloom.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ppbloom.c; sourceTree = "<group>"; };
+		C916BBFA229D369700789DB9 /* netutils.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = netutils.c; sourceTree = "<group>"; };
+		C916BBFB229D369700789DB9 /* ppbloom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ppbloom.h; sourceTree = "<group>"; };
+		C916BBFC229D369700789DB9 /* plugin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = plugin.c; sourceTree = "<group>"; };
+		C916BBFD229D369700789DB9 /* stream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = stream.c; sourceTree = "<group>"; };
+		C916BBFE229D369700789DB9 /* utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utils.h; sourceTree = "<group>"; };
+		C916BBFF229D369700789DB9 /* udprelay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = udprelay.h; sourceTree = "<group>"; };
+		C916BC00229D369700789DB9 /* resolv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = resolv.h; sourceTree = "<group>"; };
+		C916BC01229D369700789DB9 /* udprelay.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = udprelay.c; sourceTree = "<group>"; };
+		C916BC02229D369700789DB9 /* tls.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tls.c; sourceTree = "<group>"; };
+		C916BC1B229D36B100789DB9 /* rule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rule.h; sourceTree = "<group>"; };
+		C916BC1C229D36B100789DB9 /* rule.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rule.c; sourceTree = "<group>"; };
+		C977839B2296C2CE009B3C60 /* Shadowsocks-libev-iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Shadowsocks-libev-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C977839E2296C2CE009B3C60 /* Shadowsocks_libev_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Shadowsocks_libev_iOS.h; sourceTree = "<group>"; };
 		C977839F2296C2CE009B3C60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C97783B92296D5FD009B3C60 /* libbloom.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libbloom.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -203,57 +320,6 @@
 		C97784702296D7B5009B3C60 /* allocation.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = allocation.c; sourceTree = "<group>"; };
 		C97784712296D7B5009B3C60 /* general.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = general.c; sourceTree = "<group>"; };
 		C97784892296D8A5009B3C60 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = config.h; path = "shadowsocks-libev/config.h"; sourceTree = "<group>"; };
-		C977848C2296D8B9009B3C60 /* json.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = json.c; sourceTree = "<group>"; };
-		C977848D2296D8B9009B3C60 /* protocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = protocol.h; sourceTree = "<group>"; };
-		C977848E2296D8B9009B3C60 /* utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = utils.h; sourceTree = "<group>"; };
-		C977848F2296D8B9009B3C60 /* resolv.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = resolv.h; sourceTree = "<group>"; };
-		C97784902296D8B9009B3C60 /* winsock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = winsock.h; sourceTree = "<group>"; };
-		C97784912296D8B9009B3C60 /* rule.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rule.c; sourceTree = "<group>"; };
-		C97784922296D8B9009B3C60 /* tls.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tls.h; sourceTree = "<group>"; };
-		C97784932296D8B9009B3C60 /* acl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = acl.h; sourceTree = "<group>"; };
-		C97784942296D8B9009B3C60 /* plugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = plugin.h; sourceTree = "<group>"; };
-		C97784952296D8B9009B3C60 /* aead.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = aead.c; sourceTree = "<group>"; };
-		C97784962296D8B9009B3C60 /* http.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = http.h; sourceTree = "<group>"; };
-		C97784972296D8B9009B3C60 /* ppbloom.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ppbloom.c; sourceTree = "<group>"; };
-		C97784982296D8B9009B3C60 /* base64.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = base64.h; sourceTree = "<group>"; };
-		C97784992296D8B9009B3C60 /* netutils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = netutils.h; sourceTree = "<group>"; };
-		C977849A2296D8B9009B3C60 /* local.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = local.c; sourceTree = "<group>"; };
-		C977849B2296D8B9009B3C60 /* manager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = manager.h; sourceTree = "<group>"; };
-		C977849C2296D8B9009B3C60 /* tunnel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tunnel.h; sourceTree = "<group>"; };
-		C977849D2296D8B9009B3C60 /* cache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cache.h; sourceTree = "<group>"; };
-		C977849E2296D8B9009B3C60 /* redir.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = redir.c; sourceTree = "<group>"; };
-		C977849F2296D8B9009B3C60 /* stream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stream.h; sourceTree = "<group>"; };
-		C97784A02296D8B9009B3C60 /* uthash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = uthash.h; sourceTree = "<group>"; };
-		C97784A12296D8B9009B3C60 /* server.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = server.c; sourceTree = "<group>"; };
-		C97784A22296D8B9009B3C60 /* jconf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = jconf.h; sourceTree = "<group>"; };
-		C97784A32296D8B9009B3C60 /* crypto.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = crypto.h; sourceTree = "<group>"; };
-		C97784A42296D8B9009B3C60 /* udprelay.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = udprelay.c; sourceTree = "<group>"; };
-		C97784A52296D8B9009B3C60 /* winsock.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = winsock.c; sourceTree = "<group>"; };
-		C97784A72296D8B9009B3C60 /* resolv.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = resolv.c; sourceTree = "<group>"; };
-		C97784A82296D8B9009B3C60 /* utils.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = utils.c; sourceTree = "<group>"; };
-		C97784A92296D8B9009B3C60 /* common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
-		C97784AA2296D8B9009B3C60 /* json.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = json.h; sourceTree = "<group>"; };
-		C97784AB2296D8B9009B3C60 /* netutils.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = netutils.c; sourceTree = "<group>"; };
-		C97784AC2296D8B9009B3C60 /* base64.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = base64.c; sourceTree = "<group>"; };
-		C97784AE2296D8B9009B3C60 /* ppbloom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ppbloom.h; sourceTree = "<group>"; };
-		C97784AF2296D8B9009B3C60 /* http.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = http.c; sourceTree = "<group>"; };
-		C97784B02296D8B9009B3C60 /* aead.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = aead.h; sourceTree = "<group>"; };
-		C97784B12296D8B9009B3C60 /* plugin.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = plugin.c; sourceTree = "<group>"; };
-		C97784B22296D8B9009B3C60 /* acl.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = acl.c; sourceTree = "<group>"; };
-		C97784B32296D8B9009B3C60 /* tls.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tls.c; sourceTree = "<group>"; };
-		C97784B42296D8B9009B3C60 /* rule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rule.h; sourceTree = "<group>"; };
-		C97784B52296D8B9009B3C60 /* cache.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cache.c; sourceTree = "<group>"; };
-		C97784B62296D8B9009B3C60 /* manager.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = manager.c; sourceTree = "<group>"; };
-		C97784B72296D8B9009B3C60 /* tunnel.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tunnel.c; sourceTree = "<group>"; };
-		C97784B82296D8B9009B3C60 /* shadowsocks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = shadowsocks.h; sourceTree = "<group>"; };
-		C97784B92296D8B9009B3C60 /* local.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = local.h; sourceTree = "<group>"; };
-		C97784BA2296D8B9009B3C60 /* crypto.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = crypto.c; sourceTree = "<group>"; };
-		C97784BB2296D8B9009B3C60 /* jconf.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = jconf.c; sourceTree = "<group>"; };
-		C97784BC2296D8B9009B3C60 /* server.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = server.h; sourceTree = "<group>"; };
-		C97784BD2296D8B9009B3C60 /* udprelay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = udprelay.h; sourceTree = "<group>"; };
-		C97784BF2296D8B9009B3C60 /* socks5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = socks5.h; sourceTree = "<group>"; };
-		C97784C02296D8B9009B3C60 /* stream.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = stream.c; sourceTree = "<group>"; };
-		C97784C12296D8B9009B3C60 /* redir.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = redir.h; sourceTree = "<group>"; };
 		C97784EE2296DB0E009B3C60 /* libresolv.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.9.tbd; path = usr/lib/libresolv.9.tbd; sourceTree = SDKROOT; };
 		C982D8E7229CD12800771C0D /* libcares.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcares.a; path = build/libcares/lib/libcares.a; sourceTree = "<group>"; };
 		C982D8E9229CD12D00771C0D /* libev.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libev.a; path = build/libev/lib/libev.a; sourceTree = "<group>"; };
@@ -269,6 +335,24 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		C916BB8D229D1ED200789DB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C916BBA6229D1FC500789DB9 /* libresolv.9.tbd in Frameworks */,
+				C916BB9B229D1F6F00789DB9 /* libbloom.a in Frameworks */,
+				C916BB9C229D1F6F00789DB9 /* libcork.a in Frameworks */,
+				C916BB9D229D1F6F00789DB9 /* libipset.a in Frameworks */,
+				C916BB9E229D1F8800789DB9 /* libcares.a in Frameworks */,
+				C916BB9F229D1F8C00789DB9 /* libev.a in Frameworks */,
+				C916BBA0229D1F9200789DB9 /* libmbedcrypto.a in Frameworks */,
+				C916BBA1229D1F9200789DB9 /* libmbedtls.a in Frameworks */,
+				C916BBA2229D1F9200789DB9 /* libmbedx509.a in Frameworks */,
+				C916BBA3229D1F9600789DB9 /* libpcre.a in Frameworks */,
+				C916BBA4229D1F9900789DB9 /* libsodium.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C97783982296C2CE009B3C60 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -326,10 +410,11 @@
 		C977839C2296C2CE009B3C60 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C977839B2296C2CE009B3C60 /* Shadowsocks_libev_iOS.framework */,
+				C977839B2296C2CE009B3C60 /* Shadowsocks-libev-iOS.framework */,
 				C97783B92296D5FD009B3C60 /* libbloom.a */,
 				C97783D22296D666009B3C60 /* libcork.a */,
 				C977844F2296D78B009B3C60 /* libipset.a */,
+				C916BB90229D1ED200789DB9 /* libShadowsocks-libev-iOS.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -544,57 +629,43 @@
 		C977848B2296D8B9009B3C60 /* src */ = {
 			isa = PBXGroup;
 			children = (
-				C97784B22296D8B9009B3C60 /* acl.c */,
-				C97784952296D8B9009B3C60 /* aead.c */,
-				C97784AC2296D8B9009B3C60 /* base64.c */,
-				C97784B52296D8B9009B3C60 /* cache.c */,
-				C97784BA2296D8B9009B3C60 /* crypto.c */,
-				C97784AF2296D8B9009B3C60 /* http.c */,
-				C97784BB2296D8B9009B3C60 /* jconf.c */,
-				C977848C2296D8B9009B3C60 /* json.c */,
-				C977849A2296D8B9009B3C60 /* local.c */,
-				C97784B62296D8B9009B3C60 /* manager.c */,
-				C97784AB2296D8B9009B3C60 /* netutils.c */,
-				C97784B12296D8B9009B3C60 /* plugin.c */,
-				C97784972296D8B9009B3C60 /* ppbloom.c */,
-				C977849E2296D8B9009B3C60 /* redir.c */,
-				C97784A72296D8B9009B3C60 /* resolv.c */,
-				C97784912296D8B9009B3C60 /* rule.c */,
-				C97784A12296D8B9009B3C60 /* server.c */,
-				C97784C02296D8B9009B3C60 /* stream.c */,
-				C97784B32296D8B9009B3C60 /* tls.c */,
-				C97784B72296D8B9009B3C60 /* tunnel.c */,
-				C97784A42296D8B9009B3C60 /* udprelay.c */,
-				C97784A82296D8B9009B3C60 /* utils.c */,
-				C97784A52296D8B9009B3C60 /* winsock.c */,
-				C97784932296D8B9009B3C60 /* acl.h */,
-				C97784B02296D8B9009B3C60 /* aead.h */,
-				C97784982296D8B9009B3C60 /* base64.h */,
-				C977849D2296D8B9009B3C60 /* cache.h */,
-				C97784A92296D8B9009B3C60 /* common.h */,
-				C97784A32296D8B9009B3C60 /* crypto.h */,
-				C97784962296D8B9009B3C60 /* http.h */,
-				C97784A22296D8B9009B3C60 /* jconf.h */,
-				C97784AA2296D8B9009B3C60 /* json.h */,
-				C97784B92296D8B9009B3C60 /* local.h */,
-				C977849B2296D8B9009B3C60 /* manager.h */,
-				C97784992296D8B9009B3C60 /* netutils.h */,
-				C97784942296D8B9009B3C60 /* plugin.h */,
-				C97784AE2296D8B9009B3C60 /* ppbloom.h */,
-				C977848D2296D8B9009B3C60 /* protocol.h */,
-				C97784C12296D8B9009B3C60 /* redir.h */,
-				C977848F2296D8B9009B3C60 /* resolv.h */,
-				C97784B42296D8B9009B3C60 /* rule.h */,
-				C97784BC2296D8B9009B3C60 /* server.h */,
-				C97784B82296D8B9009B3C60 /* shadowsocks.h */,
-				C97784BF2296D8B9009B3C60 /* socks5.h */,
-				C977849F2296D8B9009B3C60 /* stream.h */,
-				C97784922296D8B9009B3C60 /* tls.h */,
-				C977849C2296D8B9009B3C60 /* tunnel.h */,
-				C97784BD2296D8B9009B3C60 /* udprelay.h */,
-				C97784A02296D8B9009B3C60 /* uthash.h */,
-				C977848E2296D8B9009B3C60 /* utils.h */,
-				C97784902296D8B9009B3C60 /* winsock.h */,
+				C916BC1C229D36B100789DB9 /* rule.c */,
+				C916BC1B229D36B100789DB9 /* rule.h */,
+				C916BBFA229D369700789DB9 /* netutils.c */,
+				C916BBF7229D369700789DB9 /* netutils.h */,
+				C916BBFC229D369700789DB9 /* plugin.c */,
+				C916BBF3229D369600789DB9 /* plugin.h */,
+				C916BBF9229D369700789DB9 /* ppbloom.c */,
+				C916BBFB229D369700789DB9 /* ppbloom.h */,
+				C916BBF8229D369700789DB9 /* resolv.c */,
+				C916BC00229D369700789DB9 /* resolv.h */,
+				C916BBFD229D369700789DB9 /* stream.c */,
+				C916BBF5229D369600789DB9 /* stream.h */,
+				C916BC02229D369700789DB9 /* tls.c */,
+				C916BBF6229D369700789DB9 /* tls.h */,
+				C916BC01229D369700789DB9 /* udprelay.c */,
+				C916BBFF229D369700789DB9 /* udprelay.h */,
+				C916BBF4229D369600789DB9 /* utils.c */,
+				C916BBFE229D369700789DB9 /* utils.h */,
+				C916BBD4229D367300789DB9 /* acl.c */,
+				C916BBCB229D367200789DB9 /* acl.h */,
+				C916BBD0229D367200789DB9 /* aead.c */,
+				C916BBDA229D367300789DB9 /* aead.h */,
+				C916BBCD229D367200789DB9 /* base64.c */,
+				C916BBD9229D367300789DB9 /* base64.h */,
+				C916BBD6229D367300789DB9 /* cache.c */,
+				C916BBCE229D367200789DB9 /* cache.h */,
+				C916BBD2229D367300789DB9 /* crypto.c */,
+				C916BBCC229D367200789DB9 /* crypto.h */,
+				C916BBD5229D367300789DB9 /* http.c */,
+				C916BBD8229D367300789DB9 /* http.h */,
+				C916BBD1229D367300789DB9 /* jconf.c */,
+				C916BBD3229D367300789DB9 /* jconf.h */,
+				C916BBCF229D367200789DB9 /* json.c */,
+				C916BBD7229D367300789DB9 /* json.h */,
+				C916BBC6229D365D00789DB9 /* local.c */,
+				C916BBC7229D365D00789DB9 /* local.h */,
+				C916BBC4229D362B00789DB9 /* shadowsocks.h */,
 			);
 			name = src;
 			path = "shadowsocks-libev/src";
@@ -607,19 +678,58 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C916BBF0229D367300789DB9 /* http.h in Headers */,
+				C916BBF2229D367300789DB9 /* aead.h in Headers */,
+				C916BC1D229D36B200789DB9 /* rule.h in Headers */,
+				C916BBDF229D367300789DB9 /* cache.h in Headers */,
+				C916BBCA229D365D00789DB9 /* local.h in Headers */,
 				C982D8F7229CD40E00771C0D /* SSLocalServerConfig.h in Headers */,
+				C916BBE8229D367300789DB9 /* jconf.h in Headers */,
+				C916BC08229D369700789DB9 /* netutils.h in Headers */,
+				C916BBDB229D367300789DB9 /* acl.h in Headers */,
 				C982D8FB229CD41B00771C0D /* SSLocalServer.h in Headers */,
 				C977848A2296D8A5009B3C60 /* config.h in Headers */,
+				C916BC14229D369700789DB9 /* utils.h in Headers */,
+				C916BBF1229D367300789DB9 /* base64.h in Headers */,
+				C916BC07229D369700789DB9 /* tls.h in Headers */,
+				C916BC15229D369700789DB9 /* udprelay.h in Headers */,
+				C916BC06229D369700789DB9 /* stream.h in Headers */,
+				C916BC16229D369700789DB9 /* resolv.h in Headers */,
+				C916BC0F229D369700789DB9 /* ppbloom.h in Headers */,
+				C916BC03229D369700789DB9 /* plugin.h in Headers */,
 				C97783A02296C2CE009B3C60 /* Shadowsocks_libev_iOS.h in Headers */,
+				C916BBEF229D367300789DB9 /* json.h in Headers */,
+				C916BBC5229D362B00789DB9 /* shadowsocks.h in Headers */,
+				C916BBDC229D367300789DB9 /* crypto.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		C977839A2296C2CE009B3C60 /* Shadowsocks-libev-iOS */ = {
+		C916BB8F229D1ED200789DB9 /* Shadowsocks-libev-iOS-lib */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C97783A32296C2CE009B3C60 /* Build configuration list for PBXNativeTarget "Shadowsocks-libev-iOS" */;
+			buildConfigurationList = C916BB98229D1ED200789DB9 /* Build configuration list for PBXNativeTarget "Shadowsocks-libev-iOS-lib" */;
+			buildPhases = (
+				C916BB8C229D1ED200789DB9 /* Sources */,
+				C916BB8D229D1ED200789DB9 /* Frameworks */,
+				C916BB8E229D1ED200789DB9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C916BBBF229D342700789DB9 /* PBXTargetDependency */,
+				C916BBC1229D342700789DB9 /* PBXTargetDependency */,
+				C916BBC3229D342700789DB9 /* PBXTargetDependency */,
+			);
+			name = "Shadowsocks-libev-iOS-lib";
+			productName = "Shadowsocks-libev-iOS-";
+			productReference = C916BB90229D1ED200789DB9 /* libShadowsocks-libev-iOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C977839A2296C2CE009B3C60 /* Shadowsocks-libev-iOS-framework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C97783A32296C2CE009B3C60 /* Build configuration list for PBXNativeTarget "Shadowsocks-libev-iOS-framework" */;
 			buildPhases = (
 				C97783962296C2CE009B3C60 /* Headers */,
 				C97783972296C2CE009B3C60 /* Sources */,
@@ -633,9 +743,9 @@
 				C97785072296DBF1009B3C60 /* PBXTargetDependency */,
 				C97785052296DBEE009B3C60 /* PBXTargetDependency */,
 			);
-			name = "Shadowsocks-libev-iOS";
+			name = "Shadowsocks-libev-iOS-framework";
 			productName = "Shadowsocks-libev-iOS";
-			productReference = C977839B2296C2CE009B3C60 /* Shadowsocks_libev_iOS.framework */;
+			productReference = C977839B2296C2CE009B3C60 /* Shadowsocks-libev-iOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		C97783B82296D5FD009B3C60 /* bloom */ = {
@@ -698,6 +808,9 @@
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = retriable;
 				TargetAttributes = {
+					C916BB8F229D1ED200789DB9 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 					C977839A2296C2CE009B3C60 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
@@ -724,7 +837,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C977839A2296C2CE009B3C60 /* Shadowsocks-libev-iOS */,
+				C977839A2296C2CE009B3C60 /* Shadowsocks-libev-iOS-framework */,
+				C916BB8F229D1ED200789DB9 /* Shadowsocks-libev-iOS-lib */,
 				C97783B82296D5FD009B3C60 /* bloom */,
 				C97783D12296D666009B3C60 /* cork */,
 				C977844E2296D78B009B3C60 /* ipset */,
@@ -743,31 +857,57 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		C916BB8C229D1ED200789DB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C916BBEA229D367300789DB9 /* acl.c in Sources */,
+				C916BBE3229D367300789DB9 /* aead.c in Sources */,
+				C916BBE1229D367300789DB9 /* json.c in Sources */,
+				C916BC18229D369700789DB9 /* udprelay.c in Sources */,
+				C916BBE7229D367300789DB9 /* crypto.c in Sources */,
+				C916BBC9229D365D00789DB9 /* local.c in Sources */,
+				C916BC0E229D369700789DB9 /* netutils.c in Sources */,
+				C916BC1A229D369700789DB9 /* tls.c in Sources */,
+				C916BBEC229D367300789DB9 /* http.c in Sources */,
+				C916BBEE229D367300789DB9 /* cache.c in Sources */,
+				C916BC11229D369700789DB9 /* plugin.c in Sources */,
+				C916BB9A229D1F1000789DB9 /* SSLocalServerConfig.m in Sources */,
+				C916BBE5229D367300789DB9 /* jconf.c in Sources */,
+				C916BC13229D369700789DB9 /* stream.c in Sources */,
+				C916BC0A229D369700789DB9 /* resolv.c in Sources */,
+				C916BC1F229D36B200789DB9 /* rule.c in Sources */,
+				C916BC05229D369700789DB9 /* utils.c in Sources */,
+				C916BC0C229D369700789DB9 /* ppbloom.c in Sources */,
+				C916BBDE229D367300789DB9 /* base64.c in Sources */,
+				C916BB99229D1F1000789DB9 /* SSLocalServer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C97783972296C2CE009B3C60 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C97784CD2296D901009B3C60 /* plugin.c in Sources */,
-				C97784C52296D901009B3C60 /* cache.c in Sources */,
+				C916BBE9229D367300789DB9 /* acl.c in Sources */,
+				C916BBE2229D367300789DB9 /* aead.c in Sources */,
+				C916BBE0229D367300789DB9 /* json.c in Sources */,
+				C916BC17229D369700789DB9 /* udprelay.c in Sources */,
+				C916BBE6229D367300789DB9 /* crypto.c in Sources */,
+				C916BBC8229D365D00789DB9 /* local.c in Sources */,
+				C916BC0D229D369700789DB9 /* netutils.c in Sources */,
+				C916BC19229D369700789DB9 /* tls.c in Sources */,
+				C916BBEB229D367300789DB9 /* http.c in Sources */,
+				C916BBED229D367300789DB9 /* cache.c in Sources */,
+				C916BC10229D369700789DB9 /* plugin.c in Sources */,
 				C982D8F8229CD40E00771C0D /* SSLocalServerConfig.m in Sources */,
-				C97784D82296D901009B3C60 /* winsock.c in Sources */,
-				C97784CE2296D901009B3C60 /* ppbloom.c in Sources */,
+				C916BBE4229D367300789DB9 /* jconf.c in Sources */,
+				C916BC12229D369700789DB9 /* stream.c in Sources */,
+				C916BC09229D369700789DB9 /* resolv.c in Sources */,
+				C916BC1E229D36B200789DB9 /* rule.c in Sources */,
+				C916BC04229D369700789DB9 /* utils.c in Sources */,
+				C916BC0B229D369700789DB9 /* ppbloom.c in Sources */,
+				C916BBDD229D367300789DB9 /* base64.c in Sources */,
 				C982D8FC229CD41B00771C0D /* SSLocalServer.m in Sources */,
-				C97784CC2296D901009B3C60 /* netutils.c in Sources */,
-				C97784C92296D901009B3C60 /* json.c in Sources */,
-				C97784D42296D901009B3C60 /* tls.c in Sources */,
-				C97784D02296D901009B3C60 /* resolv.c in Sources */,
-				C97784C32296D901009B3C60 /* aead.c in Sources */,
-				C97784CA2296D901009B3C60 /* local.c in Sources */,
-				C97784C42296D901009B3C60 /* base64.c in Sources */,
-				C97784D62296D901009B3C60 /* udprelay.c in Sources */,
-				C97784D32296D901009B3C60 /* stream.c in Sources */,
-				C97784C22296D901009B3C60 /* acl.c in Sources */,
-				C97784C82296D901009B3C60 /* jconf.c in Sources */,
-				C97784C62296D901009B3C60 /* crypto.c in Sources */,
-				C97784C72296D901009B3C60 /* http.c in Sources */,
-				C97784D12296D901009B3C60 /* rule.c in Sources */,
-				C97784D72296D901009B3C60 /* utils.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -842,6 +982,21 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		C916BBBF229D342700789DB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C97783B82296D5FD009B3C60 /* bloom */;
+			targetProxy = C916BBBE229D342700789DB9 /* PBXContainerItemProxy */;
+		};
+		C916BBC1229D342700789DB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C97783D12296D666009B3C60 /* cork */;
+			targetProxy = C916BBC0229D342700789DB9 /* PBXContainerItemProxy */;
+		};
+		C916BBC3229D342700789DB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C977844E2296D78B009B3C60 /* ipset */;
+			targetProxy = C916BBC2229D342700789DB9 /* PBXContainerItemProxy */;
+		};
 		C97785052296DBEE009B3C60 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = C97783B82296D5FD009B3C60 /* bloom */;
@@ -860,6 +1015,95 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		C916BB96229D1ED200789DB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N4WZ33Z6KM;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/build/libcares/include\"",
+					"\"$(SRCROOT)/build/libev/include\"",
+					"\"$(SRCROOT)/build/libmbedtls/include\"",
+					"\"$(SRCROOT)/build/libpcre/include\"",
+					"\"$(SRCROOT)/build/libsodium/include\"",
+					"\"$(SRCROOT)/Shadowsocks-libev-iOS/shadowsocks-libev/libbloom\"",
+					"\"$(SRCROOT)/Shadowsocks-libev-iOS/shadowsocks-libev/libcork/include\"",
+					"\"$(SRCROOT)/Shadowsocks-libev-iOS/shadowsocks-libev/libipset/include\"",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/libcares/lib",
+					"$(PROJECT_DIR)/build/libev/lib",
+					"$(PROJECT_DIR)/build/libmbedtls/lib",
+					"$(PROJECT_DIR)/build/libpcre/lib",
+					"$(PROJECT_DIR)/build/libsodium/lib",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"-DHAVE_CONFIG_H",
+					"-DHAVE_PCRE_H",
+					"-DVERSION=\"3.2.5\"",
+					"-DLIB_ONLY",
+					"-DUDPRELAY_LOCAL",
+					"-DMODULE_LOCAL",
+					"-DCONNECT_IN_PROGRESS=EINPROGRESS",
+					"-DTCP_NODELAY=0x01",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "Shadowsocks-libev-iOS";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 arm64e armv7 armv7s";
+			};
+			name = Debug;
+		};
+		C916BB97229D1ED200789DB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N4WZ33Z6KM;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/build/libcares/include\"",
+					"\"$(SRCROOT)/build/libev/include\"",
+					"\"$(SRCROOT)/build/libmbedtls/include\"",
+					"\"$(SRCROOT)/build/libpcre/include\"",
+					"\"$(SRCROOT)/build/libsodium/include\"",
+					"\"$(SRCROOT)/Shadowsocks-libev-iOS/shadowsocks-libev/libbloom\"",
+					"\"$(SRCROOT)/Shadowsocks-libev-iOS/shadowsocks-libev/libcork/include\"",
+					"\"$(SRCROOT)/Shadowsocks-libev-iOS/shadowsocks-libev/libipset/include\"",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/libcares/lib",
+					"$(PROJECT_DIR)/build/libev/lib",
+					"$(PROJECT_DIR)/build/libmbedtls/lib",
+					"$(PROJECT_DIR)/build/libpcre/lib",
+					"$(PROJECT_DIR)/build/libsodium/lib",
+				);
+				OTHER_CFLAGS = (
+					"-DHAVE_CONFIG_H",
+					"-DHAVE_PCRE_H",
+					"-DVERSION=\"3.2.5\"",
+					"-DLIB_ONLY",
+					"-DUDPRELAY_LOCAL",
+					"-DMODULE_LOCAL",
+					"-DCONNECT_IN_PROGRESS=EINPROGRESS",
+					"-DTCP_NODELAY=0x01",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "Shadowsocks-libev-iOS";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 arm64e armv7 armv7s";
+			};
+			name = Release;
+		};
 		C97783A12296C2CE009B3C60 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -984,9 +1228,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = N4WZ33Z6KM;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -1003,7 +1247,7 @@
 				);
 				INFOPLIST_FILE = "Shadowsocks-libev-iOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1030,7 +1274,8 @@
 					"-DTCP_NODELAY=0x01",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.retriable.Shadowsocks-libev-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "Shadowsocks-libev-iOS";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1040,9 +1285,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = N4WZ33Z6KM;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -1059,7 +1304,7 @@
 				);
 				INFOPLIST_FILE = "Shadowsocks-libev-iOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1086,7 +1331,8 @@
 					"-DTCP_NODELAY=0x01",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.retriable.Shadowsocks-libev-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "Shadowsocks-libev-iOS";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1191,6 +1437,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		C916BB98229D1ED200789DB9 /* Build configuration list for PBXNativeTarget "Shadowsocks-libev-iOS-lib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C916BB96229D1ED200789DB9 /* Debug */,
+				C916BB97229D1ED200789DB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		C97783952296C2CE009B3C60 /* Build configuration list for PBXProject "Shadowsocks-libev-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1200,7 +1455,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C97783A32296C2CE009B3C60 /* Build configuration list for PBXNativeTarget "Shadowsocks-libev-iOS" */ = {
+		C97783A32296C2CE009B3C60 /* Build configuration list for PBXNativeTarget "Shadowsocks-libev-iOS-framework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C97783A42296C2CE009B3C60 /* Debug */,

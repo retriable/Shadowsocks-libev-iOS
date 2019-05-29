@@ -28,7 +28,6 @@ SDKVERSION=`xcrun -sdk iphoneos --show-sdk-version`
 ###########################################################################
 #
 # Don't change anything here
-
 mkdir -p build
 cd build
 mkdir -p libmbedtls
@@ -40,11 +39,11 @@ DEVELOPER=`xcode-select -print-path`
 
 ##########
 set -e
-if [ ! -e mbedtls-${VERSION}-gpl.tgz ]; then
-echo "Downloading mbedtls-${VERSION}-gpl.tgz"
-curl -O -L https://tls.mbed.org/download/start/mbedtls-${VERSION}-gpl.tgz
+if [ ! -e mbedtls-${VERSION}-apache.tgz ]; then
+echo "Downloading mbedtls-${VERSION}-apache.tgz"
+curl -O -L https://tls.mbed.org/download/mbedtls-${VERSION}-apache.tgz
 else
-echo "Using mbedtls-${VERSION}-gpl.tgz"
+echo "Using mbedtls-${VERSION}-apache.tgz"
 fi
 
 mkdir -p bin
@@ -60,7 +59,7 @@ else
 PLATFORM="iPhoneOS"
 fi
 
-tar zxvf mbedtls-${VERSION}-gpl.tgz -C src
+tar zxvf mbedtls-${VERSION}-apache.tgz -C src
 cd src/mbedtls-${VERSION}/library
 
 echo "Building mbedtls for ${PLATFORM} ${SDKVERSION} ${ARCH}"
